@@ -3,12 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+.example::-webkit-scrollbar {
+  display: none;
+}
 
 html,
 body {
     background-color: #D8EFD3;
     margin-left: px;
-    overflow: hidden;
 }
 
 #img1 {
